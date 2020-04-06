@@ -19,6 +19,8 @@ var singleNumber = function(nums) {
 
     else {
 
+      // Mark has seen
+      
       memory1[nums[i]] = 1;
     }
 
