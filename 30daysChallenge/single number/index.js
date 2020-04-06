@@ -12,7 +12,7 @@ var singleNumber = function(nums) {
 
       delete memory1[nums[i]]
 
-      
+      memory2[nums[i]] = 1;
     }
 
   }
