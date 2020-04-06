@@ -10,6 +10,8 @@ var singleNumber = function(nums) {
     
     if(memory1[nums[0]]) {
 
+      // This number is seen
+
       delete memory1[nums[i]]
 
       memory2[nums[i]] = 1;
