@@ -20,9 +20,13 @@ var singleNumber = function(nums) {
     else {
 
       // Mark has seen
-      
+
       memory1[nums[i]] = 1;
     }
+
+    result = parseInt(Object.keys(memory1)[0])
+
+    return result;
 
   }
 }
