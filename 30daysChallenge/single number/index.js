@@ -17,5 +17,10 @@ var singleNumber = function(nums) {
       memory2[nums[i]] = 1;
     }
 
+    else {
+
+      memory1[nums[i]] = 1;
+    }
+
   }
 }
